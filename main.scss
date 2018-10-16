@@ -1,0 +1,111 @@
+/* Global Sass Variables */
+$main-colour: #1E1E1E;
+$link-colour: #6AE5DC;
+$bg-colour: #D8D8D8;
+$font-family: 'Pontano Sans', sans-serif;
+$title-font: 'Abril Fatface';
+
+/* Social Media Icons */
+
+
+/* Facebook */
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+
+    color: white;
+}
+
+/* Default View */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+}
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family: $font-family;
+    color: $main-colour;
+  }
+  h1 {
+    font-family: $title-font;
+    margin:0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-size:100px;
+    font-weight:700;
+    text-transform:uppercase;
+    color: white;
+    text-shadow:1px 1px 1px $main-colour;
+  }
+  h1::before, h1::after {
+      width: 220px;
+      height: 1px;
+      content:"";
+      display:block;
+      margin:20px auto;
+  }
+  
+  header {
+    height: calc(100% - 65px);
+    background:$main-colour;
+  }
+  .classy {
+    position:relative;
+    background:$main-colour url(./imgs/header.jpg) no-repeat center center;
+    background-size:cover;
+    height: 100%;
+    width:100%;
+  }
+  
+  nav {
+    background:$main-colour;
+    height:65px;
+  }
+  nav.fixed {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+  }
+
+  nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-align:center;
+  }
+  nav ul li {
+    display:inline-block;
+  }
+  nav ul a {
+    height:65px;
+    line-height:65px;
+    padding:10px 15px;
+    color: $bg-colour;
+    
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration:none;
+  }
+  
+  section {
+    height: 100%;
+    width:100%;
+    display:table;
+  }
