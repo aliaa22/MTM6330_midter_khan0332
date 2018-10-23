@@ -131,7 +131,7 @@ form {
 input,
 textarea {
     padding: 0.5rem;
-    border: 1px solid #ddd;
+    border: 1px solid $bg-colour;
     border-radius: 3px;
     width: 100%;
     color: #fff;
@@ -153,4 +153,9 @@ textarea {
   margin: 1rem;
   padding: 1rem;
   text-align: left;
+
+  img {
+    float: right;
+    margin: 1rem;
+  }
 }
