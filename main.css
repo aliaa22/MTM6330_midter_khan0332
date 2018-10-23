@@ -41,8 +41,7 @@ h1 {
   color: white;
   text-shadow: 1px 1px 1px #1E1E1E;
 }
-
-h1::before, h1::after {
+h1 h1::before, h1 h1::after {
   width: 220px;
   height: 1px;
   content: "";
@@ -63,6 +62,7 @@ header {
   width: 100%;
 }
 
+/* nav bar */
 nav {
   background: #1E1E1E;
   height: 65px;
@@ -98,5 +98,50 @@ nav ul a {
   text-decoration: none;
 }
 
+.article {
+  text-align: left;
+  border: 5px #1E1E1E;
+}
+
+/* contact form */
+form {
+  font-size: 1rem;
+  margin: 1rem;
+  float: left;
+  width: 85%;
+  height: 450px;
+}
+form fieldset {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  color: slateblue;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+[type=checkbox] {
+  width: auto;
+}
+
+[type=submit] {
+  background-color: slateblue;
+  border-color: slateblue;
+  border-radius: 10px;
+}
+
+.article {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 /* Global Sass Variables */
 $main-colour: #1E1E1E;
-$link-colour: #6AE5DC;
+$link-colour:  slateblue;
 $bg-colour: #D8D8D8;
 $font-family: 'Pontano Sans', sans-serif;
 $title-font: 'Abril Fatface';
@@ -47,14 +47,16 @@ html, body {
     text-transform:uppercase;
     color: white;
     text-shadow:1px 1px 1px $main-colour;
-  }
-  h1::before, h1::after {
+    
+    h1::before, h1::after {
       width: 220px;
       height: 1px;
       content:"";
       display:block;
       margin:20px auto;
+    }
   }
+
   
   header {
     height: calc(100% - 65px);
@@ -67,6 +69,8 @@ html, body {
     height: 100%;
     width:100%;
   }
+
+  /* nav bar */
   
   nav {
     background:$main-colour;
@@ -100,3 +104,53 @@ html, body {
     text-transform: uppercase;
     text-decoration:none;
   }
+
+  .article {
+    text-align: left;
+    border: 5px $main-colour;
+  }
+
+  /* contact form */
+
+form {
+    font-size: 1rem;
+    margin: 1rem;
+    float: left;
+    width: 85%;
+    height: 450px;
+    
+    fieldset {
+      padding: 1rem;
+      margin: 1rem;
+      border: none;
+      color: $link-colour;
+    }
+}
+
+
+input,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+}
+
+[type="checkbox"] {
+    width: auto;
+}
+
+[type="submit"] {
+    background-color: $link-colour;
+    border-color: $link-colour;
+    border-radius: 10px;
+
+}
+
+.article {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
