@@ -5,7 +5,7 @@ $bg-colour: #D8D8D8;
 $font-family: 'Pontano Sans', sans-serif;
 $title-font: 'Abril Fatface';
 
-/* Facebook */
+/* Social Media Icons */
 .fa-facebook,
 .fa-twitter,
 .fa-instagram {
@@ -13,7 +13,7 @@ $title-font: 'Abril Fatface';
     color: white;
 }
 
-/* Default View */
+/* Default Settings */
 
 .clearfix::after {
     content: "";
@@ -36,6 +36,9 @@ html, body {
     font-family: $font-family;
     color: $main-colour;
   }
+
+/* header */
+
   h1 {
     font-family: $title-font;
     margin:0;
@@ -56,19 +59,15 @@ html, body {
       margin:20px auto;
     }
   }
-
   
-  header {
-    height: calc(100% - 65px);
-    background:$main-colour;
-  }
   .classy {
     position:relative;
-    background:$main-colour url(./imgs/header.jpg) no-repeat center center;
+    background:#333 url(/imgs/header.jpg) no-repeat center center;
     background-size:cover;
     height: 100%;
     width:100%;
   }
+  
 
   /* nav bar */
   
@@ -158,4 +157,30 @@ textarea {
   }
 }
 
-#more {display: none;}
+/* read more button */
+
+#more {
+  display: none;
+}
+
+/* about us */
+
+.aboutalia {
+  border: 1px solid $main-colour;
+  margin: 1rem;
+  display: flex;
+
+p {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+  float: right;
+}
+
+img {
+  align-self: flex-end;
+  float: left;
+  margin-right: 1rem;
+}
+
+}

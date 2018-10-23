@@ -1,11 +1,11 @@
 /* Global Sass Variables */
-/* Facebook */
+/* Social Media Icons */
 .fa-facebook,
 .fa-twitter,
 .fa-instagram {
   color: white; }
 
-/* Default View */
+/* Default Settings */
 .clearfix::after {
   content: "";
   display: block;
@@ -24,6 +24,7 @@ html, body {
   font-family: "Pontano Sans", sans-serif;
   color: #1E1E1E; }
 
+/* header */
 h1 {
   font-family: "Abril Fatface";
   margin: 0;
@@ -42,13 +43,9 @@ h1 {
     display: block;
     margin: 20px auto; }
 
-header {
-  height: calc(100% - 65px);
-  background: #1E1E1E; }
-
 .classy {
   position: relative;
-  background: #1E1E1E url(./imgs/header.jpg) no-repeat center center;
+  background: #333 url(/imgs/header.jpg) no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%; }
@@ -125,5 +122,21 @@ textarea {
     float: right;
     margin: 1rem; }
 
+/* read more button */
 #more {
   display: none; }
+
+/* about us */
+.aboutalia {
+  border: 1px solid #1E1E1E;
+  margin: 1rem;
+  display: flex; }
+  .aboutalia p {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: left;
+    float: right; }
+  .aboutalia img {
+    align-self: flex-end;
+    float: left;
+    margin-right: 1rem; }
