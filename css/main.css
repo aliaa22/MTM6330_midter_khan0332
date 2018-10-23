@@ -3,31 +3,26 @@
 .fa-facebook,
 .fa-twitter,
 .fa-instagram {
-  color: white;
-}
+  color: white; }
 
 /* Default View */
 .clearfix::after {
   content: "";
   display: block;
-  clear: both;
-}
+  clear: both; }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "Pontano Sans", sans-serif;
-}
+  font-family: "Pontano Sans", sans-serif; }
 
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Pontano Sans", sans-serif;
-  color: #1E1E1E;
-}
+  color: #1E1E1E; }
 
 h1 {
   font-family: "Abril Fatface";
@@ -39,52 +34,44 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  text-shadow: 1px 1px 1px #1E1E1E;
-}
-h1 h1::before, h1 h1::after {
-  width: 220px;
-  height: 1px;
-  content: "";
-  display: block;
-  margin: 20px auto;
-}
+  text-shadow: 1px 1px 1px #1E1E1E; }
+  h1 h1::before, h1 h1::after {
+    width: 220px;
+    height: 1px;
+    content: "";
+    display: block;
+    margin: 20px auto; }
 
 header {
   height: calc(100% - 65px);
-  background: #1E1E1E;
-}
+  background: #1E1E1E; }
 
 .classy {
   position: relative;
   background: #1E1E1E url(./imgs/header.jpg) no-repeat center center;
   background-size: cover;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 /* nav bar */
 nav {
   background: #1E1E1E;
-  height: 65px;
-}
+  height: 65px; }
 
 nav.fixed {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-}
+  right: 0; }
 
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  text-align: center;
-}
+  text-align: center; }
 
 nav ul li {
-  display: inline-block;
-}
+  display: inline-block; }
 
 nav ul a {
   height: 65px;
@@ -95,13 +82,7 @@ nav ul a {
   letter-spacing: 2px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
-}
-
-.article {
-  text-align: left;
-  border: 5px #1E1E1E;
-}
+  text-decoration: none; }
 
 /* contact form */
 form {
@@ -109,14 +90,12 @@ form {
   margin: 1rem;
   float: left;
   width: 85%;
-  height: 450px;
-}
-form fieldset {
-  padding: 1rem;
-  margin: 1rem;
-  border: none;
-  color: slateblue;
-}
+  height: 450px; }
+  form fieldset {
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    color: slateblue; }
 
 input,
 textarea {
@@ -125,27 +104,26 @@ textarea {
   border-radius: 3px;
   width: 100%;
   color: #fff;
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
-[type=checkbox] {
-  width: auto;
-}
+[type="checkbox"] {
+  width: auto; }
 
-[type=submit] {
+[type="submit"] {
   background-color: slateblue;
   border-color: slateblue;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
-.article {
+.sixofcrows,
+.beartown {
   margin: 1rem;
   padding: 1rem;
   text-align: left;
-}
-.article img {
-  float: right;
-  margin: 1rem;
-}
+  border: 1px solid #1E1E1E; }
+  .sixofcrows img,
+  .beartown img {
+    float: right;
+    margin: 1rem; }
 
-/*# sourceMappingURL=main.css.map */
+#more {
+  display: none; }

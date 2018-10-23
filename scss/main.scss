@@ -105,10 +105,6 @@ html, body {
     text-decoration:none;
   }
 
-  .article {
-    text-align: left;
-    border: 5px $main-colour;
-  }
 
   /* contact form */
 
@@ -149,13 +145,17 @@ textarea {
 
 }
 
-.article {
+.sixofcrows,
+.beartown {
   margin: 1rem;
   padding: 1rem;
   text-align: left;
+  border: 1px solid $main-colour;
 
   img {
     float: right;
     margin: 1rem;
   }
 }
+
+#more {display: none;}
